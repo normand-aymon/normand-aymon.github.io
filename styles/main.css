@@ -1,6 +1,4 @@
 .main {
-  color: #9fced6;
-  font-family: Monteserrat, Arial;
   margin-left: 50px;
   margin-top: 20px;
   width: 100%;
@@ -84,7 +82,6 @@
 .welcome {
   display: grid;
   animation: transitionIn 0.75s;
-
 }
 
 .autodidacte {

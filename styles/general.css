@@ -3,11 +3,15 @@ p {
   color: #9fced6;
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: 16px;
   text-align: justify;
 }
 
-p li {
+b {
+  font-family: Montserrat, Arial;
+  color: #9fced6;
+}
+
+li {
   font-family: Montserrat, Arial;
   color: #9fced6;
   margin-top: 0;

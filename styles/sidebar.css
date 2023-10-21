@@ -43,10 +43,9 @@
 
 .sidebar-link.active {
   background-color: #1165a15d;
-  border: 1px solid #1165a1b0 /* Set the background color for the active link */
+  border: 1px solid #1165a1b0;
 }
 
-/* Optional: Style for the non-active sidebar links */
 .sidebar-link:not(.active) {
-  background-color: transparent; /* Set the default background color for non-active links */
+  background-color: transparent;
 }

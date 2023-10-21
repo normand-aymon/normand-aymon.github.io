@@ -25,20 +25,14 @@
 }
 
 .header b {
-  font-size: 150%;
   font-style: italic;
   font-weight: 500;
-}
-
-.header p {
-  font-size: 120%;
 }
 
 .header p,
 .header b {
   margin-left: 12px;
   font-size: 150%;
-  background-clip: text;
 }
 
 .social {
@@ -63,7 +57,7 @@
 
 .icon-linkedin:hover,
 .icon-github:hover {
- opacity: 0.8;
+  opacity: 0.8;
 }
 
 a:visited {
