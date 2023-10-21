@@ -38,7 +38,6 @@
 .header b {
   margin-left: 12px;
   font-size: 150%;
-  background-image: linear-gradient(#28292b, #041214);
   background-clip: text;
 }
 
