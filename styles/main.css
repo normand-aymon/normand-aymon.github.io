@@ -1,0 +1,118 @@
+.main {
+  color: #9fced6;
+  font-family: Monteserrat, Arial;
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.main img {
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 3px 4px 5px black;
+  border-radius: 5px;
+}
+
+.welcome-text,
+.autodidacte-text,
+.projet-text,
+.competences-text,
+.formations-text,
+.experiences-text,
+.moi-text {
+  margin-right: 30px;
+}
+
+.welcome,
+.autodidacte,
+.projet,
+.competences,
+.formations,
+.experiences,
+.moi {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  max-width: 1200px;
+  padding: 1.5%;
+  margin: 0 auto;
+  grid-gap: 30px;
+}
+
+.autodidacte,
+.projet,
+.competences,
+.formations,
+.experiences,
+.moi {
+  background-color: #1165a15d;
+  border: 1px solid #1165a1b0;
+  border-radius: 10px;
+  position: relative;
+}
+
+.autodidacte:hover::before,
+.projet:hover::before,
+.competences:hover::before,
+.formations:hover::before,
+.experiences:hover::before,
+.moi:hover::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.autodidacte::before,
+.projet::before,
+.competences::before,
+.formations::before,
+.experiences::before,
+.moi::before {
+  background: radial-gradient(1000px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(6, 40, 65, 0.3), transparent 40%);
+  border-radius: inherit;
+  content: "";
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  top: 0px;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  transform: scale(0);
+  width: 100%;
+}
+
+.welcome {
+  display: grid;
+  animation: transitionIn 0.75s;
+
+}
+
+.autodidacte {
+  display: none;
+  animation: transitionIn 0.75s;
+}
+
+.projet {
+  display: none;
+  animation: transitionIn 0.75s;
+}
+
+.competences {
+  display: none;
+  animation: transitionIn 0.75s;
+}
+
+.formations {
+  display: none;
+  animation: transitionIn 0.75s;
+}
+
+.experiences {
+  display: none;
+  animation: transitionIn 0.75s;
+}
+
+.moi {
+  display: none;
+  animation: transitionIn 0.75s;
+}
